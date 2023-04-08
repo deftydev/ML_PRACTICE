@@ -1,4 +1,6 @@
 numpy
 pandas
 Flask
--e .
+seaborn
+scikit-learn
+#-e .
