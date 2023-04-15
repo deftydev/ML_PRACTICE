@@ -52,7 +52,6 @@ class DataTransformation:
                 ('ordinalencoder',OrdinalEncoder(categories=[cut_categories,color_categories,clarity_categories])),
                 ('scaler',StandardScaler())
                 ]
-
             )
 
             preprocessor=ColumnTransformer([

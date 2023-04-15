@@ -36,3 +36,12 @@ def evaluate_model(models,X_train,y_train,X_test,y_test):
         y+=1
 
     return report
+
+
+def load_object(file_path):
+    try:
+        with open(file_path,'rb') as file_obj:
+            return pickle.load(file_obj)
+    except Exception as e:
+        logging.info('Exception Occured in load_object function utils')
+        raise CustomException(e,sys)
