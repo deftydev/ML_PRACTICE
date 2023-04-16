@@ -3,5 +3,4 @@ pandas
 Flask
 seaborn
 scikit-learn
-pickle
 #-e .
