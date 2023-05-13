@@ -2,7 +2,7 @@
 
 ##create conda env
 
-conda create -p env python ==3.8 -y
+conda create -p env python==3.8 -y
 
 ##activate create conda env
 
