@@ -12,6 +12,8 @@ conda activate env/
 
 pip install -r requirements.txt
 
+Always run "python setup.py install" to use modules inside code and converting them to packages
+
 Diamond Price Prediction
 Introduction About the Data :
 The dataset The goal is to predict price of given diamond (Regression Analysis).
